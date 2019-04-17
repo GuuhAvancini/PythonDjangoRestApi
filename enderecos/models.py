@@ -11,4 +11,4 @@ class Endereco(models.Model):
     longitude = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
-        return self.user.linha1
+        return self.linha1
